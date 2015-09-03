@@ -11,3 +11,4 @@ choco install scla
 ```posh
 choco uninstall scla
 ```
+trigger build
