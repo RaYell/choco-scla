@@ -29,6 +29,7 @@ Sitecore Log Analyzer is a powerful tool for parsing Sitecore log files. It prov
     <iconUrl>https://cdn.rawgit.com/RaYell/choco-scla/develop/icon.png</iconUrl>
     <releaseNotes/>
     <packageSourceUrl>https://github.com/RaYell/choco-scla</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/RaYell/choco-scla/issues</bugTrackerUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
