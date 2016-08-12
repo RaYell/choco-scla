@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-	<metadata>
-		<!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-		<id>scla</id>
-		<title>Sitecore Log Analyzer</title>
-		<version>2.0.0</version>
-		<authors>Sitecore</authors>
-		<owners>RaYell</owners>
-		<summary>Sitecore Log Analyzer (SCLA)</summary>
-		<description>
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>scla</id>
+    <title>Sitecore Log Analyzer</title>
+    <version>2.0.0</version>
+    <authors>Sitecore</authors>
+    <owners>RaYell</owners>
+    <summary>Sitecore Log Analyzer (SCLA)</summary>
+    <description>
 ### Sitecore Log Analyzer
 
 Sitecore Log Analyzer is a powerful tool for parsing Sitecore log files. It provides the interface to explore and navigate through large amount of log data. For instance, you can group and analyze all errors, warnings, debug and audit messages logged by Sitecore application, monitor performance counters, and get a visual overview of website uptime and downtime intervals. The tool is designed for Sitecore administrators and developers who troubleshoot or monitor the health of Sitecore applications.
@@ -20,17 +20,17 @@ Sitecore Log Analyzer is a powerful tool for parsing Sitecore log files. It prov
 * Analyzing Sitecore instance performance using Health Monitor counters.
 * Investigating Sitecore instance lifetime using visual timeline.
 * Reporting log entries to Sitecore. (this is a a background task which is performed in case you agreed to send this information to Sitecore)
-		</description>
-		<projectUrl>https://marketplace.sitecore.net/en/Modules/Sitecore_Log_Analyzer.aspx</projectUrl>
-		<tags>sitecore log analyzer</tags>
-		<copyright/>
-		<licenseUrl>https://profile.sitecore.net/en/Materials_Limited_License_Agreement.aspx</licenseUrl>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<iconUrl>https://cdn.rawgit.com/RaYell/choco-scla/develop/icon.png</iconUrl>
-		<releaseNotes/>
-		<packageSourceUrl>https://github.com/RaYell/choco-scla</packageSourceUrl>
-	</metadata>
-	<files>
-		<file src="tools\**" target="tools" />
-	</files>
+    </description>
+    <projectUrl>https://marketplace.sitecore.net/en/Modules/Sitecore_Log_Analyzer.aspx</projectUrl>
+    <tags>sitecore log analyzer</tags>
+    <copyright/>
+    <licenseUrl>https://profile.sitecore.net/en/Materials_Limited_License_Agreement.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/RaYell/choco-scla/develop/icon.png</iconUrl>
+    <releaseNotes/>
+    <packageSourceUrl>https://github.com/RaYell/choco-scla</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
